@@ -1,0 +1,32 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境
+env/
+venv/
+.conda/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 数据集（太大不传）
+data/
+data_cleaned/
+openvla-7b/
+models/
+
+# 模型文件
+*.bin
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.safetensors
+
+# 日志
+*.log
+.DS_Store
