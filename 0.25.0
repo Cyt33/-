@@ -1,0 +1,92 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting accelerate
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7e/46/02ac5e262d4af18054b3e922b2baedbb2a03289ee792162de60a865defc5/accelerate-1.13.0-py3-none-any.whl (383 kB)
+Collecting draccus
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b9/52/3144a4a8341f125d357a8f6e07aeb23b0bde7133dabbd0c78b984c079a1f/draccus-0.11.5-py3-none-any.whl (78 kB)
+Collecting einops
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2a/09/f8d8f8f31e4483c10a906437b4ce31bdf3d6d417b73fe33f1a8b59e34228/einops-0.8.2-py3-none-any.whl (65 kB)
+Collecting huggingface_hub
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/03/40a05316cb6616e5b7efd7773656441ab04b4b022c2199e79bb4622a92a3/huggingface_hub-1.18.0-py3-none-any.whl (684 kB)
+Collecting json-numpy
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/61/7bec579093bc5f8da7f308a319e0d9372409f4bc0f7ea95588051b8cf139/json_numpy-2.1.1-py3-none-any.whl (5.5 kB)
+Collecting jsonlines
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f8/62/d9ba6323b9202dd2fe166beab8a86d29465c41a0288cbe229fac60c1ab8d/jsonlines-4.0.0-py3-none-any.whl (8.7 kB)
+Collecting peft
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e8/b6/f54d676ed93cc2dd2234c3b172ea9c8c3d7d29361e66b1b23dec57a67465/peft-0.19.1-py3-none-any.whl (680 kB)
+     ---------------------------------------- 680.7/680.7 kB 499.4 kB/s  0:00:01
+Collecting protobuf
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/ab/547fbd9e16d879dd13c167478f8ae0a83a428008ca07a5e06acdc23ad473/protobuf-7.35.0-cp310-abi3-win_amd64.whl (439 kB)
+Requirement already satisfied: numpy>=1.17 in .\miniconda\Lib\site-packages (from accelerate) (2.4.6)
+Requirement already satisfied: packaging>=20.0 in .\miniconda\Lib\site-packages (from accelerate) (26.0)
+Requirement already satisfied: psutil in .\miniconda\Lib\site-packages (from accelerate) (7.2.2)
+Requirement already satisfied: pyyaml in .\miniconda\Lib\site-packages (from accelerate) (6.0.3)
+Collecting torch>=2.0.0 (from accelerate)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3e/2f/bdbaaa267de519ef1b73054bf590d8c93c37a266c9a4e24a01bd38b6918f/torch-2.12.0-cp313-cp313-win_amd64.whl (123.0 MB)
+     ---------------------------------------- 123.0/123.0 MB 8.9 MB/s  0:00:13
+Collecting safetensors>=0.4.3 (from accelerate)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/e6/ec8471c8072382cb91233ba7267fd931219753bb43814cbc71757bfd4dab/safetensors-0.7.0-cp38-abi3-win_amd64.whl (341 kB)
+Collecting mergedeep~=1.3 (from draccus)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2c/19/04f9b178c2d8a15b076c8b5140708fa6ffc5601fb6f1e975537072df5b2a/mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Collecting pyyaml-include~=1.4 (from draccus)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d5/ca/6a2cc3a73170d10b5af1f1613baa2ed1f8f46f62dd0bfab2bffd2c2fe260/pyyaml_include-1.4.1-py3-none-any.whl (19 kB)
+Collecting toml~=0.10 (from draccus)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting typing-inspect~=0.9.0 (from draccus)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/65/f3/107a22063bf27bdccf2024833d3445f4eea42b2e598abfbd46f6a63b6cb0/typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Collecting mypy-extensions>=0.3.0 (from typing-inspect~=0.9.0->draccus)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Requirement already satisfied: typing-extensions>=3.7.4 in .\miniconda\Lib\site-packages (from typing-inspect~=0.9.0->draccus) (4.15.0)
+Collecting click>=8.4.0 (from huggingface_hub)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c7/0d/67e5b4109ea4a837e80daa87c2c696711955e40449a97e8926672534def2/click-8.4.1-py3-none-any.whl (116 kB)
+Collecting filelock>=3.10.0 (from huggingface_hub)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4c/a0/614c5fe402fd88951df45f4dda2fa3b4e17a99ecd92340771929169b3b95/filelock-3.29.1-py3-none-any.whl (40 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d5/0c/043d5e551459da400957a1395e0febbf771446ff34291afcbe3d8be2a279/fsspec-2026.4.0-py3-none-any.whl (203 kB)
+Collecting hf-xet<2.0.0,>=1.4.3 (from huggingface_hub)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6d/b6/20f99cfe97cc663a711f7b33cc21d4793e51968e9a26125b4afcd77315ba/hf_xet-1.5.1-cp37-abi3-win_amd64.whl (4.0 MB)
+     ---------------------------------------- 4.0/4.0 MB 7.9 MB/s  0:00:00
+Requirement already satisfied: httpx<1,>=0.23.0 in .\miniconda\Lib\site-packages (from huggingface_hub) (0.28.1)
+Requirement already satisfied: tqdm>=4.42.1 in .\miniconda\Lib\site-packages (from huggingface_hub) (4.67.3)
+Requirement already satisfied: typer<0.26.0,>=0.20.0 in .\miniconda\Lib\site-packages (from huggingface_hub) (0.20.0)
+Requirement already satisfied: anyio in .\miniconda\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub) (4.12.1)
+Requirement already satisfied: certifi in .\miniconda\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub) (2026.5.20)
+Requirement already satisfied: httpcore==1.* in .\miniconda\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub) (1.0.9)
+Requirement already satisfied: idna in .\miniconda\Lib\site-packages (from httpx<1,>=0.23.0->huggingface_hub) (3.11)
+Requirement already satisfied: h11>=0.16 in .\miniconda\Lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface_hub) (0.16.0)
+Requirement already satisfied: shellingham>=1.3.0 in .\miniconda\Lib\site-packages (from typer<0.26.0,>=0.20.0->huggingface_hub) (1.5.4)
+Requirement already satisfied: rich>=10.11.0 in .\miniconda\Lib\site-packages (from typer<0.26.0,>=0.20.0->huggingface_hub) (14.2.0)
+Requirement already satisfied: attrs>=19.2.0 in .\miniconda\Lib\site-packages (from jsonlines) (26.1.0)
+Collecting transformers (from peft)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/73/6f/e1564b0cc182afa05e219a8e09a8e770ffaab879b6b824b56c819bd221da/transformers-5.10.2-py3-none-any.whl (11.0 MB)
+     ---------------------------------------- 11.0/11.0 MB 4.0 MB/s  0:00:03
+Requirement already satisfied: colorama in .\miniconda\Lib\site-packages (from click>=8.4.0->huggingface_hub) (0.4.6)
+Requirement already satisfied: markdown-it-py>=2.2.0 in .\miniconda\Lib\site-packages (from rich>=10.11.0->typer<0.26.0,>=0.20.0->huggingface_hub) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in .\miniconda\Lib\site-packages (from rich>=10.11.0->typer<0.26.0,>=0.20.0->huggingface_hub) (2.20.0)
+Requirement already satisfied: mdurl~=0.1 in .\miniconda\Lib\site-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<0.26.0,>=0.20.0->huggingface_hub) (0.1.2)
+Collecting setuptools<82 (from torch>=2.0.0->accelerate)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e1/e3/c164c88b2e5ce7b24d667b9bd83589cf4f3520d97cad01534cd3c4f55fdb/setuptools-81.0.0-py3-none-any.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 2.7 MB/s  0:00:00
+Collecting sympy>=1.13.3 (from torch>=2.0.0->accelerate)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Collecting networkx>=2.5.1 (from torch>=2.0.0->accelerate)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl (2.1 MB)
+Requirement already satisfied: jinja2 in .\miniconda\Lib\site-packages (from torch>=2.0.0->accelerate) (3.1.6)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch>=2.0.0->accelerate)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl (536 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in .\miniconda\Lib\site-packages (from jinja2->torch>=2.0.0->accelerate) (3.0.3)
+Collecting regex>=2025.10.22 (from transformers->peft)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e6/1d/861a93719fb9ee7dbfc3761b3797b7a3e112a5d42c6129459d2d741be9b5/regex-2026.5.9-cp313-cp313-win_amd64.whl (277 kB)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers->peft)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/65/71/0670843133a43d43070abeb1949abfdef12a86d490bea9cd9e18e37c5ff7/tokenizers-0.22.2-cp39-abi3-win_amd64.whl (2.7 MB)
+     ---------------------------------------- 2.7/2.7 MB 7.3 MB/s  0:00:00
+Installing collected packages: mpmath, toml, sympy, setuptools, safetensors, regex, pyyaml-include, protobuf, networkx, mypy-extensions, mergedeep, jsonlines, json-numpy, hf-xet, fsspec, filelock, einops, click, typing-inspect, torch, draccus, huggingface_hub, tokenizers, accelerate, transformers, peft
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 82.0.1
+    Uninstalling setuptools-82.0.1:
+      Successfully uninstalled setuptools-82.0.1
+  Attempting uninstall: click
+    Found existing installation: click 8.2.1
+    Uninstalling click-8.2.1:
+      Successfully uninstalled click-8.2.1
+
+Successfully installed accelerate-1.13.0 click-8.4.1 draccus-0.11.5 einops-0.8.2 filelock-3.29.1 fsspec-2026.4.0 hf-xet-1.5.1 huggingface_hub-1.18.0 json-numpy-2.1.1 jsonlines-4.0.0 mergedeep-1.3.4 mpmath-1.3.0 mypy-extensions-1.1.0 networkx-3.6.1 peft-0.19.1 protobuf-7.35.0 pyyaml-include-1.4.1 regex-2026.5.9 safetensors-0.7.0 setuptools-81.0.0 sympy-1.14.0 tokenizers-0.22.2 toml-0.10.2 torch-2.12.0 transformers-5.10.2 typing-inspect-0.9.0

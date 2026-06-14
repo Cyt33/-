@@ -8,6 +8,8 @@ __pycache__/
 env/
 venv/
 .conda/
+miniconda/
+miniconda3/
 
 # 编辑器
 .vscode/
@@ -27,6 +29,19 @@ models/
 *.hdf5
 *.safetensors
 
+# 压缩包
+*.zip
+
+# 训练结果
+runs/
+
 # 日志
 *.log
 .DS_Store
+
+# 临时文件
+*.egg-info/
+package_manifest.json
+
+# 嵌入的git仓库
+code/openvla/
